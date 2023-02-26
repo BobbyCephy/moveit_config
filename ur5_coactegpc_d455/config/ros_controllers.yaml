@@ -1,0 +1,12 @@
+gripper_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - gripper_base_jaw_left_joint
+  gains:
+    robotiq_hande_finger_left_joint:
+      d: 0.0
+      i: 100
+      i_clamp: 130.0
+      p: 10000
+  constraints:
+    stopped_velocity_tolerance: 0

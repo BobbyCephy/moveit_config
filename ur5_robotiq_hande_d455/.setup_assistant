@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robot_gripper_camera
+    relative_path: urdf/robot_gripper_camera.urdf.xacro
+    xacro_args: robot:=ur5 gripper:=robotiq_hande camera:=d455
+  SRDF:
+    relative_path: config/robot_gripper_camera.srdf
+  CONFIG:
+    author_name: Robert Arno Kampf
+    author_email: robert1.kampf@student.uni-augsburg.de
+    generated_timestamp: 1666706091
